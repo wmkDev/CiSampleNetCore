@@ -1,0 +1,13 @@
+language: csharp
+
+before_install: 
+  - sudo pip install codecov
+  
+install:
+  - sudo apt-get install mono-devel nunit-console       
+   
+script: 
+  - xbuild
+
+after_success: 
+  - codecov
