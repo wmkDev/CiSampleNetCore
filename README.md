@@ -14,7 +14,7 @@ Sample of continuous integration with .Net Core
 
 Hosting App and Database on cloud => [Microsoft Azure](https://portal.azure.com/).
 
-[Demo Test](http://CiSampleNetCore-test.azurewebsites.net/) - http://CiSampleNetCore-test.azurewebsites.net/
+[Demo Test](http://cisamplenetcore.azurewebsites.net/)
 
 ## Testing:
 <table>
