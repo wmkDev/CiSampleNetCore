@@ -16,12 +16,7 @@ Hosting App and Database on cloud => [Microsoft Azure](https://portal.azure.com/
 
 [Demo Test](http://CiSampleNetCore-test.azurewebsites.net/) - http://CiSampleNetCore-test.azurewebsites.net/
 
-# Continuous Integration
-
-
-
-
-## Homologação:
+## Testing:
 <table>
   <tr>
     <td>
