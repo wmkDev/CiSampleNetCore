@@ -1,4 +1,6 @@
-﻿using CiSampleNetCore.Contracts;
+﻿using System.Linq;
+using System.Threading.Tasks;
+using CiSampleNetCore.Contracts;
 using CiSampleNetCore.ViewModel;
 using Microsoft.AspNetCore.Mvc;
 
@@ -13,13 +15,12 @@ namespace WebCore.Controllers
             _todoService = todoService;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
             var vmHome = new HomeViewModel
             {
-                TodoViewModels = _todoService.GetAllAsync()
+                TodoViewModels = await _todoService.GetAllAsync()
             };
-
             return View(vmHome);
         }
 

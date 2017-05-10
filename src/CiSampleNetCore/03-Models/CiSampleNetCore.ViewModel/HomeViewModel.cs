@@ -7,6 +7,6 @@ namespace CiSampleNetCore.ViewModel
     public class HomeViewModel
     {
         
-        public Task<List<TodoViewModel>> TodoViewModels { get; set; }
+        public ICollection<TodoViewModel> TodoViewModels { get; set; }
     }
 }

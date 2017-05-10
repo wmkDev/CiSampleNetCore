@@ -35,6 +35,7 @@ namespace CiSampleNetCore.Services
         {
             return new TodoViewModel
             {
+                Id = todo.Id,
                 Date = todo.Date,
                 Title = todo.Title
             };
