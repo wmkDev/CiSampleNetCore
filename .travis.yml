@@ -8,7 +8,7 @@ install:
   - sudo apt-get install mono-devel nunit-console       
    
 script: 
-  - xbuild
+  - xbuild src/CiSampleNetCore/01-Apps/WebCore/WebCore.csproj
 
 after_success: 
   - codecov
