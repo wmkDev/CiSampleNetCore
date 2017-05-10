@@ -1,5 +1,9 @@
 language: csharp
 solution: src/CiSampleNetCore/CiSampleNetCore.sln
+dist: trusty
+sudo: required
+mono: none
+dotnet: 1.0.1
 
 before_install: 
   - sudo pip install codecov
@@ -9,7 +13,7 @@ install:
   - nuget restore src/CiSampleNetCore/CiSampleNetCore.sln  
    
 script: 
-  - xbuild src/CiSampleNetCore/01-Apps/WebCore/WebCore.csproj
+  - ./build.sh --quiet verify  
 
 after_success: 
   - codecov
