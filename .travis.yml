@@ -1,13 +1,18 @@
 language: csharp
+solution: src/CiSampleNetCore/CiSampleNetCore.sln
+dist: trusty
+sudo: required
+mono: none
+dotnet: 1.0.1
 
 before_install: 
   - sudo pip install codecov
-  
-install:
-  - sudo apt-get install mono-devel nunit-console       
-   
+
+before_script:
+ - chmod +x ./build.sh
+ 
 script: 
-  - xbuild
+  - ./build.sh --quiet verify  
 
 after_success: 
   - codecov
