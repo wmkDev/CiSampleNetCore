@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\04-DataAccess\CiSampleNetCore\CiSampleNetCore.Data.csproj" />
+    <ProjectReference Include="..\CiSampleNetCore.Contracts\CiSampleNetCore.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>
