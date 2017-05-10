@@ -6,6 +6,7 @@ before_install:
   
 install:
   - sudo apt-get install mono-devel nunit-console       
+  - nuget restore src/CiSampleNetCore/CiSampleNetCore.sln  
    
 script: 
   - xbuild src/CiSampleNetCore/01-Apps/WebCore/WebCore.csproj
