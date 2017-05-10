@@ -8,9 +8,6 @@ dotnet: 1.0.1
 before_install: 
   - sudo pip install codecov
 
-before_script:
- - chmod +x ./travis/build.sh
-
 script: 
   - ./build.sh --quiet verify  
 
