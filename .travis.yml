@@ -1,4 +1,5 @@
 language: csharp
+solution: src/CiSampleNetCore/CiSampleNetCore.sln
 
 before_install: 
   - sudo pip install codecov
