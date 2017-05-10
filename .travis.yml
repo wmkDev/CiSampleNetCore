@@ -8,10 +8,6 @@ dotnet: 1.0.1
 before_install: 
   - sudo pip install codecov
   
-install:
-  - sudo apt-get install mono-devel nunit-console       
-  - nuget restore src/CiSampleNetCore/CiSampleNetCore.sln  
-   
 script: 
   - ./build.sh --quiet verify  
 
