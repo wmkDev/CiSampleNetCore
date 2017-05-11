@@ -16,3 +16,6 @@ script:
 
 after_success: 
   - codecov
+
+notifications:
+    slack: ceufor-team:rtGmNuS3NjN8Rl2J6EfXIdTL
