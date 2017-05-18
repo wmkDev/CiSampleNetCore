@@ -23,7 +23,7 @@ Hosting App and Database on cloud => [Microsoft Azure](https://portal.azure.com/
       <a href="https://travis-ci.org/"><strong>Travis CI</strong></a><p><sup>(branch: master)</sup></p>
     </td>
     <td>
-    <a href="https://travis-ci.com/wmkDev/CiSampleNetCore">    
+    <a href="https://travis-ci.org/wmkDev/CiSampleNetCore">    
       <img src="https://travis-ci.org/wmkDev/CiSampleNetCore.svg?branch=master" alt="Travis">    
       </a>
     </td>
