@@ -11,8 +11,9 @@ before_install:
 before_script:
  - chmod +x build.sh
  
-script: 
-  - dotnet restore && dotnet build
+script:
+ - cd src/CiSampleNetCore
+ - dotnet restore && dotnet build
 
 after_success: 
   - codecov
