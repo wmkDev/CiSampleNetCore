@@ -1,4 +1,3 @@
-﻿using System.Configuration;
 using CiSampleNetCore.Contracts;
 using CiSampleNetCore.Data.EfContext;
 using CiSampleNetCore.Services;
