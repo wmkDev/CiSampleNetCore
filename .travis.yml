@@ -16,6 +16,9 @@ script:
 
 after_success: 
   - codecov
-
+  
 notifications:
-    slack: ceufor-team:rtGmNuS3NjN8Rl2J6EfXIdTL
+  slack:
+    rooms:
+      - ceufor-team:rtGmNuS3NjN8Rl2J6EfXIdTL 
+      - team-devdream:wvgquvIca7kL8W1Q1XGSRgZw
